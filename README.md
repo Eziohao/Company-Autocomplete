@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-#What is this APP
+# What is this APP
 
 This is a company name autocomplete widget, user can search company namee. And then get the result on the screen. 
 
