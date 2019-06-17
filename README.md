@@ -3,6 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # What is this APP
 
 This is a company name autocomplete widget, user can search company name. And then get the result on the screen. 
+You can try it here : https://eziohao.github.io/Company-Autocomplete/
 
 ## Available Scripts
 
