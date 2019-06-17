@@ -21,9 +21,11 @@ class App extends React.Component {
     })
     .then(companies=>{
       this.setState({company:companies})
+      this.setState({error:''})
     })
     .catch(err=>{
       //console.log(err.message);
+      this.setState({company:''})
       this.setState({error:err.message})
     })
   }
