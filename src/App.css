@@ -25,6 +25,9 @@
 .App-link {
   color: #61dafb;
 }
+.error-msg {
+  color: crimson;
+}
 
 @keyframes App-logo-spin {
   from {

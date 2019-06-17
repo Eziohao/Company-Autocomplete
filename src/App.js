@@ -7,7 +7,7 @@ class App extends React.Component {
   constructor(props){
    super(props);
    this.handleInput=this.handleInput.bind(this);
-   this.state={searchName:'',company:''}; 
+   this.state={searchName:'',company:'',error:''}; 
   }
   handleInput(event){
     let companyName=event.target.value;
@@ -24,8 +24,7 @@ class App extends React.Component {
     })
     .catch(err=>{
       //console.log(err.message);
-      this.setState({company:''})
-      alert(err.message);
+      this.setState({error:err.message})
     })
   }
 
@@ -37,7 +36,7 @@ class App extends React.Component {
       <h2>What company do you want to search?</h2>
       <input type="text"  className="App-input" placeholder="Company name" onChange={this.handleInput}/>
       <p>Name:{this.state.searchName}</p>
-     <ShowCompany companies={this.state.company}/>
+     <ShowCompany companies={this.state.company} err={this.state.error}/>
     </header>
    
   </div> );
@@ -49,7 +48,8 @@ class App extends React.Component {
    }
    render(){
      const companies=this.props.companies;
-    if(companies){
+     const err=this.props.err;
+    if(companies&&!err){
       const listItems=companies.map((company)=>{
         return(
          <tr key={company.domain}>
@@ -72,8 +72,13 @@ class App extends React.Component {
         </table>
       )
     }
+   else if(err){
+     return(
+       <p className="error-msg">ERROR! {err}</p>
+     )
+   }
    else{
-     return('')
+     return '';
    }
   
    }
