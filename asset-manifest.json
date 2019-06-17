@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Company-Autocomplete/static/css/main.2e7fc82b.chunk.css",
+    "main.css": "/Company-Autocomplete/static/css/main.c9b35e13.chunk.css",
     "main.js": "/Company-Autocomplete/static/js/main.f8fe0cfd.chunk.js",
     "main.js.map": "/Company-Autocomplete/static/js/main.f8fe0cfd.chunk.js.map",
     "runtime~main.js": "/Company-Autocomplete/static/js/runtime~main.00b83669.js",
@@ -8,9 +8,9 @@
     "static/js/2.373ccd69.chunk.js": "/Company-Autocomplete/static/js/2.373ccd69.chunk.js",
     "static/js/2.373ccd69.chunk.js.map": "/Company-Autocomplete/static/js/2.373ccd69.chunk.js.map",
     "index.html": "/Company-Autocomplete/index.html",
-    "precache-manifest.7a61d7bb843222f245364b14dce20443.js": "/Company-Autocomplete/precache-manifest.7a61d7bb843222f245364b14dce20443.js",
+    "precache-manifest.eba45416409b15efe0fef970e01f47ab.js": "/Company-Autocomplete/precache-manifest.eba45416409b15efe0fef970e01f47ab.js",
     "service-worker.js": "/Company-Autocomplete/service-worker.js",
-    "static/css/main.2e7fc82b.chunk.css.map": "/Company-Autocomplete/static/css/main.2e7fc82b.chunk.css.map",
+    "static/css/main.c9b35e13.chunk.css.map": "/Company-Autocomplete/static/css/main.c9b35e13.chunk.css.map",
     "static/media/logo.svg": "/Company-Autocomplete/static/media/logo.5d5d9eef.svg"
   }
 }
